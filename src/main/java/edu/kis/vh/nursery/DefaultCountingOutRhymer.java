@@ -6,18 +6,18 @@ public class DefaultCountingOutRhymer {
     private final int EMPTY_STACK_VALUE = -1;
     private final int ERROR_RETURN_VALUE = -1;
     private int total = -1;
+
     protected void countIn(int in) {
         if (!isFull())
             NUMBERS[++total] = in;
     }
-
 
     public boolean callCheck() {
         return total == EMPTY_STACK_VALUE;
     }
 
     public boolean isFull() {
-        return total == SIZE-1;
+        return total == SIZE - 1;
     }
 
     protected int peekaboo() {
