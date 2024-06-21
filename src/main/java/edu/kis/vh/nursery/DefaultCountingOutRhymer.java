@@ -3,8 +3,8 @@ package edu.kis.vh.nursery;
 public class DefaultCountingOutRhymer {
     final private int SIZE = 12;
     final private int[] NUMBERS = new int[SIZE];
-    final int EMPTY_STACK_VALUE = -1;
-    final int ERROR_RETURN_VALUE = -1;
+    private final int EMPTY_STACK_VALUE = -1;
+    private final int ERROR_RETURN_VALUE = -1;
     private int total = -1;
     protected void countIn(int in) {
         if (!isFull())
@@ -42,5 +42,17 @@ public class DefaultCountingOutRhymer {
 
     public int[] getNUMBERS() {
         return NUMBERS;
+    }
+
+    private int getEMPTY_STACK_VALUE() {
+        return EMPTY_STACK_VALUE;
+    }
+
+    private int getERROR_RETURN_VALUE() {
+        return ERROR_RETURN_VALUE;
+    }
+
+    private void setTotal(int total) {
+        this.total = total;
     }
 }
