@@ -1,5 +1,6 @@
 package edu.kis.vh.nursery;
 
+
 public class DefaultCountingOutRhymer {
     final private int SIZE = 12;
     final private int[] NUMBERS = new int[SIZE];
