@@ -36,4 +36,11 @@ public class DefaultCountingOutRhymer {
         return total;
     }
 
+    public int getSIZE() {
+        return SIZE;
+    }
+
+    public int[] getNUMBERS() {
+        return NUMBERS;
+    }
 }
