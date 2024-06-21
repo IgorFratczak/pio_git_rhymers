@@ -51,8 +51,4 @@ public class DefaultCountingOutRhymer {
     private int getERROR_RETURN_VALUE() {
         return ERROR_RETURN_VALUE;
     }
-
-    private void setTotal(int total) {
-        this.total = total;
-    }
 }
