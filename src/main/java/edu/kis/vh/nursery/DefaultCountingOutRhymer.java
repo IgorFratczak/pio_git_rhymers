@@ -5,7 +5,7 @@ public class DefaultCountingOutRhymer {
     final private int[] NUMBERS = new int[SIZE];
     final int EMPTY_STACK_VALUE = -1;
     final int ERROR_RETURN_VALUE = -1;
-    public int total = -1;
+    private int total = -1;
     protected void countIn(int in) {
         if (!isFull())
             NUMBERS[++total] = in;
