@@ -10,7 +10,7 @@ public class FIFORhymer extends DefaultCountingOutRhymer {
 
     /**
      * Nadpisuje metodę countOut, aby zaimplementować FIFO.
-     * Metoda zwraca pierwszy element element  lub -1 jesli licznik jest pusty
+     * Metoda zwraca pierwszy element element lub -1 jesli licznik jest pusty
      */
     @Override
     protected int countOut() {
